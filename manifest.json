@@ -1,0 +1,22 @@
+{
+    "name": "Chic by Lore Admin",
+    "short_name": "Chic by Lore Admin",
+    "icons": [
+        {
+          "src": "/public/chic_logo1.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/public/chic_logo1.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#A28497",
+    "background_color": "#A28497"
+    
+    
+  }

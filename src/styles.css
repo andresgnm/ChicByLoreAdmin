@@ -1,0 +1,128 @@
+
+
+
+.box-shadow {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.booking-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .react-datepicker__day--highlighted-circle {
+    background-color: pink;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.25rem;
+    text-align: center;
+    width: 1.5rem;
+  } */
+  .react-datepicker__day--highlighted {
+    background-color:  pink;
+    color: white;
+    
+    display: inline-block;
+    padding: 0.25rem;
+    text-align: center;
+    width: 1.5rem;
+  }
+  .react-datepicker__day--highlighted:hover {
+    background-color: lightgray;
+    color: white;
+    
+    display: inline-block;
+    padding: 0.25rem;
+    text-align: center;
+    width: 1.5rem;
+  }
+  
+  
+
+  /* Modal */
+.ReactModalPortal > div{
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity .2s ease-in-out;
+  z-index: 999;
+}
+
+.modal-fondo {
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.modal {
+  background: white;
+  border-radius: 5px;
+  color: rgb(51, 51, 51);
+  display:flex;
+  
+  max-height: 620px;
+  max-width: 500px;
+  outline: none;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+
+  /* .react-datepicker__day--selected .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: pink;
+  } */
+
+ 
+
+  /* .react-datepicker__day--selected,
+.react-datepicker__day--in-range {
+  background-color: transparent;
+} */
+
+
+
+/* .react-datepicker__day--selected {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+
+  .react-datepicker__day--selected:hover {
+    background-color: unset;
+    border-radius: 50%;
+    color: inherit;
+  } */
